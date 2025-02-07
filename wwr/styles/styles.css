@@ -1,3 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
+
+.home-title{
+    font-family: condiment;
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
 div {max-width: 1600px;
     margin: 0 auto;    
 }
@@ -6,11 +17,24 @@ div {max-width: 1600px;
 }
 .logo {
     width: 80px;
+    padding-top: 10px;
+}
+.card-img{
+    border: 10px solid #d9c2a3
+}
+
+main section img{
+    box-sizing: border-box;
+}
+#logo_link{
+    padding-top: 5px;
 }
 
 nav a {text-align: center;
-color: #77aca2;
-text-decoration: underline;}
+    color: #FFF;
+    text-decoration: underline;
+    padding: 35px;
+}
 nav a:hover {
     color: #7cdedc;
 }
@@ -44,8 +68,15 @@ main section {
 
 body {
     background-color: #7cdedc;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: condiment;
 }
 
+h2 {
+    margin: 0;
+}
 header {
     background-color: #77aca2;
 }
@@ -54,6 +85,10 @@ header {
     background-color: #77aca2;
     color: #7cdedc;
     text-decoration: underline;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 .book:hover, .join:hover{
@@ -62,12 +97,17 @@ header {
 }
 .msg{
     background-color: #77aca2;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #7cdedc;
+    font-family: condiment;
 }
 .msg p {
     color: #7cdedc;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .home-title{
     color: #fb3640;
@@ -83,6 +123,12 @@ footer a:hover {
 footer{
     background-color: #77aca2;
     color: #7cdedc;
+    padding: 25px 50px;
+    margin-top: 200px;
+
+}
+footer .social img{
+    padding-top: 15;
 }
 footer p{
     font-size: 1.2em;
@@ -91,4 +137,8 @@ footer img{
     width: 5%;
     margin: 0 auto;
 
+}
+
+.river-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }

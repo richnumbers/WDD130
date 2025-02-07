@@ -1,0 +1,17 @@
+body {
+    background-color: cornflowerblue;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #FFF;
+}
+
+main p {
+    color: #fff;
+}
+
+img{
+    width: 50%;
+}
