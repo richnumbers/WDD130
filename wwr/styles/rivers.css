@@ -35,6 +35,59 @@ nav a:hover {
     color: #7cdedc;
 }
 
+body {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+
+.image {
+   
+    height: auto;
+    border-radius: 8px; 
+}
+
+.text {
+    max-width: 500px;
+}
+
+
+.content.reverse {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+ 
+    padding: 40px 0;
+}
+
+
+.image1 {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    border-radius: 8px;
+}
+
+
 footer a{
     color: #1446a0;
     text-decoration: underline;
