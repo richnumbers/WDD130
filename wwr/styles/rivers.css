@@ -53,7 +53,7 @@ main {
 .content-block {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content:flex-start;
     gap: 20px;
     padding: 20px 0;
 }
@@ -73,9 +73,9 @@ main {
 .content.reverse {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 20px;
- 
+    
     padding: 40px 0;
 }
 
