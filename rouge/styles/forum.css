@@ -32,6 +32,46 @@ nav a:hover {
     
 }
 
+.update1 {
+    text-align: center;
+    padding-top: 50px;
+    margin-inline: 20px;
+}
+
+.update1 p {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.updates {
+    width: 40%;
+    margin-top: 50px;
+    margin: auto 0;
+}
+
+.update2{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+
+    
+}
+.update2 h2{
+    text-align: center;
+    padding: 20px;
+    max-width: 100px
+}
+.update2 p {
+    max-width: 600px;
+}
+.img2 {
+    width: 20%;
+    margin-left: 100px;
+    display: block;
+    align-items: center;
+    
+}
 footer{
     background-color:#008080 ;
     grid-template-columns: 1fr 1fr;
