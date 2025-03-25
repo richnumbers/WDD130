@@ -1,14 +1,15 @@
-
+@import url('https://fonts.google.com/specimen/Cinzel');
+@import url('https://fonts.google.com/specimen/Nunito');
 
 
 header{
-    background-color:#008080 ;
+    background-color:#191970 ;
     grid-template-columns: 1fr 1fr;
     display: grid;
 }
 
 nav{
-    color: #191970; 
+    color: #A42212; 
     justify-content: space-around;
     margin-left: 20px;
     flex-direction: column;
@@ -18,14 +19,16 @@ nav{
 }
 
 nav a {text-align: center;
-    color: #FFF;
+    color: #A42212;
     text-decoration: underline;
     padding: 15px;
     display: block;
 
 }
 nav a:hover {
-    color: #7cdedc;
+    color:#008080;
+    background-color: #C0C0C0;
+    margin-bottom: 20%;
 }
 .logo{
     width: 20%;
@@ -64,15 +67,30 @@ p {
     padding-bottom: 50px;
 }
 
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    background-color: #008080;
+    color: #C0C0C0;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Cinzel', serif;
+    color: #13145C;
+  }
+
 
 footer{
-    background-color:#008080 ;
+    background-color:#191970 ;
     grid-template-columns: 1fr 1fr;
     display: grid;
 }
 .footerLogo{
     width: 20%;
-    padding-left: 20px;
+    margin-left: 50%;
     justify-self: right;
     
     
